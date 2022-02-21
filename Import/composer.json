@@ -1,32 +1,33 @@
 {
-    "name": "Wireit/module-import",
-    "description": "Customer Data Import Via Csv and Json Using command line ",
+    "name": "wireit/import",
+    "description": "Magento 2 Customer import from cli",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Ziaur",
+            "name": "Ziaur Rahaman",
             "email": "rahaman.ziaur@gmail.com"
         }
     ],
-	
-	"repositories": {
+    "require": {
+        "php": "~7.3.0|~7.4.0",
+        "magento/framework": ">=102.0.0"
+    },
+    "repositories": {
         "wireit/import": {
             "type": "git",
-            "url": "https://github.com/ziaur1/wereit.git"
+            "url": "https://github.com/ziaur1/wereit"
         }
     },
-	
-    "require": {
-        "php": ">=7.4"
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Wireit/Import"
+            ]
+        ]
     },
-    "version": "1.0.0",
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Wireit\\Import\\": ""
-        }
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "version":"2.1.9"
 }
