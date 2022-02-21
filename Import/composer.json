@@ -11,7 +11,7 @@
     ],
 	
 	"repositories": {
-        "wireit/customerimport": {
+        "wireit/import": {
             "type": "git",
             "url": "https://github.com/ziaur1/wereit.git"
         }
