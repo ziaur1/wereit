@@ -1,5 +1,5 @@
 {
-    "name": "wireit/import",
+    "name": "ziaur1/wireit",
     "description": "Magento 2 Customer import from cli",
     "type": "magento2-module",
     "license": "proprietary",
@@ -23,7 +23,7 @@
         "map": [
             [
                 "*",
-                "Wireit/Import"
+                "ziaur1/wireit"
             ]
         ]
     },
